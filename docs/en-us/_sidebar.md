@@ -1,7 +1,7 @@
 - [Main Page](en-us/README.md)
-
 - [Overview](./en-us/overview.md)
 - [Use Component](./en-us/use-component.md)
+- [Marcos in ink](./en-us/ink-marco.md)
 - [Marcos in Metis](./en-us/metis-marcos.md)
 - [Access Control](./en-us/access-control.md)
   - [Ownable](./en-us/access-control/ownable.md)

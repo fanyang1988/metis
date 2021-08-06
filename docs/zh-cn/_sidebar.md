@@ -1,6 +1,7 @@
 - [Metis文档](./zh-cn/README.md)
 - [Metis介绍](./zh-cn/overview.md)
 - [组件及其使用](./zh-cn/use-component.md)
+- [ink!中的宏](./zh-cn/ink-marco.md)
 - [Metis中的宏](./zh-cn/metis-marcos.md)
 - [访问控制组件](./zh-cn/access-control.md)
   - [Ownable](./zh-cn/access-control/ownable.md)
