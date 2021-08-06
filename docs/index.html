@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css"
     title="docsify-darklight-theme" type="text/css" />
+  <link href="//cdn.jsdelivr.net/npm/prismjs@1.24.1/themes/prism-dark.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -47,7 +48,7 @@
       repo: 'https://github.com/patractlabs/metis',
       auto2top: true,
       autoHeader: false,
-      subMaxLevel: 2,
+      subMaxLevel: 3,
       darklightTheme: {
         siteFont: "PT Sans",
         defaultTheme: 'dark',
@@ -118,22 +119,29 @@
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4" data-load-sidebar="_sidebar.md" data-router
     data-repo="https://github.com/patractlabs/metis/tree/master/docs"></script>
+
   <script type="text/x-mathjax-config">
     MathJax.Hub.Config({ extensions: ["tex2jax.js"], jax: ["input/TeX", "output/HTML-CSS"], tex2jax: { inlineMath: [ ['$','$'],
     ["\\(","\\)"] ], displayMath: [ ['$$','$$'], ["\\[","\\]"] ], processEscapes: true }, "HTML-CSS": { availableFonts: ["TeX"]
     } });
   </script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-rust.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-go.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-solidity.min.js"></script>
-  <script src="//cdn.bootcss.com/mathjax/2.6.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-  <script src="//cdn.jsdelivr.net/npm/mermaid@8.0.0-alpha.6/dist/mermaid.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify-pagination@2.3.0/dist/docsify-pagination.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+  <script src="//cdn.jsdelivr.net/npm/mathjax@2.7.9/unpacked/MathJax.min.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1.24.1/prism.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1.24.1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1.24.1/components/prism-rust.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1.24.1/components/prism-go.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1.24.1/components/prism-python.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1.24.1/components/prism-solidity.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1.24.1/components/prism-json.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1.24.1/components/prism-wasm.min.js"></script>
+
+  
+  <script src="//cdn.jsdelivr.net/npm/mermaid@8.11.4/dist/mermaid.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/emoji.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination@2.6.1/dist/docsify-pagination.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2.1.1/dist/docsify-copy-code.min.js"></script>
   <script>
     mermaid.initialize({
       theme: 'dark',
